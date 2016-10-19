@@ -1,0 +1,29 @@
+html {
+background-color: #669dbb;
+}
+
+body {
+  font-family: "Verdana";
+  margin: 0 3em 0 3em;
+  width: 600px;
+
+}
+
+h1 {
+  color: lightblue;
+  text-shadow: 1px 1px 1px #000;
+  font: italic small-caps normal 40px/1.4 Verdana;
+}
+
+h2 {
+  color: lightblue;
+  text-shadow: 1px 1px 1px #000;
+  font: italic small-caps normal 35px/1.4 Verdana;
+}
+
+a {
+  font: normal 16px Verdana;
+}
+
+
+  

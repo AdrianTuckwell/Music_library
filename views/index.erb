@@ -1,0 +1,19 @@
+<h2>Library</h2>
+<hr>
+
+<ul>
+<!-- get artists from @artists -->
+  <% @artists.each do |artist| %>
+    <li>
+    <!-- make list of artists name -->
+    <%= artist.name %>
+      <ul>
+        <!-- get albums from @artists -->
+        <% artist.albums.each do |album| %>
+          <!-- make list of albums per artist name -->
+          <li><%= album.name %></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>

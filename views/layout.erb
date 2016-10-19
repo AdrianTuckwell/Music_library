@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>Music Library</title>
+   <!-- Add sytle CSS sheet -->
+   <link rel="stylesheet" type="text/css" href="/style.css">
+ </head>
+ <body>
+  <nav>
+    <h1>Adrians Album Store</h1>
+
+    <ul>
+      <!-- Add buttons to each route -->
+      <li><a href="/artists">Artists</a> </li>
+      <li><a href="/albums">Albums</a> </li>
+      <li><a href="/library">Library</a> </li>
+      <li><a href="/artists/new">New Artist</a> </li>
+      <li><a href="/albums/new">New Album</a> </li>
+    </ul>
+    <hr>
+  </nav>
+  <main>
+    <!-- call yield for Sinatra -->
+    <%= yield %>
+  </main> 
+</body>  
+</html>
