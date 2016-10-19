@@ -1,0 +1,10 @@
+<h1>Edit Album</h1>
+
+<form action="/Albums/<%= @Album.id %>" method="post">
+  <label for="name">Name:</label>
+  <input type="text" name="name" value="<%= @Album.name %>">
+
+  <input type="hidden" name="_method" value="put">  
+  <!-- this is to recognise the put request - _method  -->
+  <input type='submit' value="Edit Album">
+</form>
