@@ -1,7 +1,10 @@
 <b>Name:</b>
 <p><%= @album.name() %></p>
 
-<a href="/albumss/<%= @album.id %>/edit">Edit</a>
+<a href="/albums/<%= @album.id %>/edit">Edit</a>
+
+<img src="/images/image<%= @album.id %>.jpeg" alt="Cover" height="150" width="150">
+
 
 <form action="/albums/<%= @album.id %>" method="post">
 <input type="submit" value="Delete"/>
